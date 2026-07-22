@@ -12,7 +12,9 @@ kind: ConfigMap
 metadata:
   name: helm-03
 data:
-  {{ .Values.configmapData | toYaml | indent 2 }}
+  configmapData: {{ .Values.configmapData | toYaml | indent 2 }}
+
+
 
 
   
