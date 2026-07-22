@@ -1,4 +1,4 @@
-{{- define "sample.labels" -}}
+{{- define "mychart.labels" -}}
 app: {{ .Chart.Name }}
 release: {{ .Release.Name }}
 version: {{ .Chart.Version }}
