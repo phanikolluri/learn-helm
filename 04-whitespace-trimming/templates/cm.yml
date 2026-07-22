@@ -18,7 +18,7 @@ metadata:
 data:
 {{ - if eq (int .Values.Release_Number) 100 }}
   my_number_if: {{ quote .Values.Release_Number }}
-{{ end }}
+{{ - end }}
   x: 1000
 
 
