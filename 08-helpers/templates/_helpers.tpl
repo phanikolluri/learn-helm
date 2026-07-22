@@ -1,4 +1,4 @@
-{{- define "mychart.labels" -}}
+{{- define "mychart.labels" }}
 labels:
   app: demo
   project: sample
