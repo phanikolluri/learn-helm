@@ -11,6 +11,16 @@ data:
 {{ end }}
   x: 2000
 
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: helm-02
+data:
+{{ - if eq (int .Values.Release_Number) 100 }}
+  my_number_if: {{ quote .Values.Release_Number }}
+{{ end }}
+  x: 1000
+
 
 
 
