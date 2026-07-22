@@ -6,7 +6,7 @@ configmapData:
 my_age: 31
 
 cm:
-  enabled: true
+  enabled: false
   x: 200
 
   
