@@ -1,0 +1,15 @@
+Release_Number: 100
+my_name: phani
+configmapData:
+  "x1": 1000
+  "y1": 2000
+my_age: 31
+
+cm:
+  enabled: true
+  x: 200
+
+  
+  
+  
+
