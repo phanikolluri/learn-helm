@@ -6,6 +6,7 @@ data:
   release_number: {{ quote .Values.Release_Number }}
   my_name: {{ .Values.my_name | upper }}
 
+---
 
 apiVersion: v1
 kind: ConfigMap
