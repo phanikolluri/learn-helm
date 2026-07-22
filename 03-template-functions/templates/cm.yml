@@ -4,6 +4,8 @@ metadata:
   name: helm-02
 data:
   release_number: {{ quote .Values.Release_Number }}
+  my_name: {{ .Values.my_name }}
+  
 
 
 
