@@ -3,5 +3,6 @@ my_name: phani
 configmapData:
   "x1": 1000
   "y1": 2000
+my_age: 31
   
 
